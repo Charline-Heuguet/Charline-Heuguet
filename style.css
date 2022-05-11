@@ -1,0 +1,57 @@
+body {
+    font-family: 'Cabin';
+}
+
+main {
+    display: flex;
+    width: 950px;
+    border: 1px solid black;
+}
+
+.gauche {
+    padding: 20px 30px;
+    background-color: beige;
+    border-right: 1px solid black;
+}
+
+.gauche p{
+    font-style: italic;
+}
+
+.gauche h2 {
+    font-size: 0.9em;
+}
+
+.gauche p {
+    font-size: 0.9em;
+    margin: 10px 0;
+}
+
+
+.droite {
+    padding: 0 20px;
+}
+
+
+h1 {
+   padding-left: 180px;
+   margin-bottom: 50px;
+}
+
+h2 {
+    margin-top: 30px;
+    font-size: 1em;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.temps {
+    padding-top: 20px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.italic {
+    font-size: 0.9em;
+    font-style: italic
+}
